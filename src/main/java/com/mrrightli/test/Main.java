@@ -16,5 +16,8 @@ public class Main {
 
 //        String[] s = {"to", "be", "or"};
 
+        Comparable[] a = {28, 29, 30, 34, 36, 60, 1, 3, 6, 7, 8, 9, 12}; // 12
+        MaxPQ<Comparable> maxPQ = new MaxPQ<>(a);
+        System.out.println(maxPQ.delMax());
     }
 }
